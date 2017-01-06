@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #fff;    
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    margin: 5px;
+    background-color: #0070E0;
+    width: 25px;
+}
+
+.navbar-brand{
+    height: 60px;
+    padding: 15px
+}
+
+.navbar-brand > img{
+    display: inline-block;
+}
+
+/*tirando scroll do collapse*/
+.navbar-collapse.in{
+    overflow: hidden;
+}
